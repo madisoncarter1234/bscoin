@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Briefcase body -->
+  <rect x="4" y="10" width="24" height="18" rx="2" fill="#10B981" stroke="#0a0a0a" stroke-width="1"/>
+  
+  <!-- Briefcase handle -->
+  <path d="M11 10 V8 C11 6 12 5 14 5 L18 5 C20 5 21 6 21 8 V10" 
+        fill="none" stroke="#0a0a0a" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Lock/clasp detail -->
+  <rect x="14" y="16" width="4" height="3" rx="0.5" fill="#FFD700"/>
+  
+  <!-- Dollar sign on briefcase -->
+  <text x="16" y="24" font-family="monospace" font-size="10" font-weight="bold" 
+        text-anchor="middle" fill="#0a0a0a">$</text>
+</svg>

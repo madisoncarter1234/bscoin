@@ -59,7 +59,7 @@ body {
     right: 0;
     height: 3px;
     background: linear-gradient(90deg, transparent, var(--bullish), transparent);
-    transform: translateY(-50%) rotate(15deg);
+    transform: translateY(-50%) rotate(-15deg);
     opacity: 0.3;
 }
 

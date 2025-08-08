@@ -7,6 +7,7 @@
 :root {
     --red: #FF3B30;
     --green: #00C853;
+    --bullish: #10B981;
     --dark: #0a0a0a;
     --gray: #1a1a1a;
     --light-gray: #2a2a2a;
@@ -31,20 +32,20 @@ body {
     width: 100%;
     height: 100%;
     background: 
-        linear-gradient(180deg, transparent 0%, rgba(255, 59, 48, 0.1) 100%),
+        linear-gradient(180deg, transparent 0%, rgba(16, 185, 129, 0.1) 100%),
         repeating-linear-gradient(
             90deg,
             transparent,
             transparent 100px,
-            rgba(255, 59, 48, 0.03) 100px,
-            rgba(255, 59, 48, 0.03) 101px
+            rgba(16, 185, 129, 0.03) 100px,
+            rgba(16, 185, 129, 0.03) 101px
         ),
         repeating-linear-gradient(
             0deg,
             transparent,
             transparent 100px,
-            rgba(255, 59, 48, 0.03) 100px,
-            rgba(255, 59, 48, 0.03) 101px
+            rgba(16, 185, 129, 0.03) 100px,
+            rgba(16, 185, 129, 0.03) 101px
         );
     z-index: -1;
     opacity: 0.5;
@@ -57,8 +58,8 @@ body {
     left: 0;
     right: 0;
     height: 3px;
-    background: linear-gradient(90deg, transparent, var(--red), transparent);
-    transform: translateY(-50%) rotate(-15deg);
+    background: linear-gradient(90deg, transparent, var(--bullish), transparent);
+    transform: translateY(-50%) rotate(15deg);
     opacity: 0.3;
 }
 
@@ -82,7 +83,7 @@ header {
     height: auto;
     border-radius: 12px;
     margin-bottom: 2rem;
-    box-shadow: 0 0 30px rgba(255, 59, 48, 0.3);
+    box-shadow: 0 0 30px rgba(16, 185, 129, 0.3);
     border: 2px solid var(--light-gray);
 }
 
@@ -113,7 +114,7 @@ h1 {
 
 .glitch::before {
     animation: glitch-1 0.3s infinite;
-    color: var(--red);
+    color: var(--bullish);
     z-index: -1;
 }
 
@@ -227,8 +228,8 @@ h1 {
 }
 
 .warning-box {
-    background: rgba(255, 59, 48, 0.1);
-    border: 2px solid var(--red);
+    background: rgba(16, 185, 129, 0.1);
+    border: 2px solid var(--bullish);
     border-radius: 8px;
     padding: 1.5rem;
     margin-bottom: 3rem;
@@ -236,7 +237,7 @@ h1 {
 }
 
 .warning-box h3 {
-    color: var(--red);
+    color: var(--bullish);
     margin-bottom: 1rem;
     font-size: 1.5rem;
     animation: blink 1s infinite;
@@ -298,7 +299,7 @@ h3 {
 
 .quote:hover {
     color: var(--text);
-    border-left-color: var(--red);
+    border-left-color: var(--bullish);
 }
 
 .token-grid {
@@ -418,12 +419,12 @@ h3 {
 
 .btn-secondary {
     background: transparent;
-    color: var(--red);
-    border-color: var(--red);
+    color: var(--bullish);
+    border-color: var(--bullish);
 }
 
 .btn-secondary:hover {
-    background: var(--red);
+    background: var(--bullish);
     color: var(--text);
     transform: scale(1.05);
 }
